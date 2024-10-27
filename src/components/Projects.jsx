@@ -58,8 +58,8 @@ function Projects() {
             variant="outline-light"
             onClick={() => handleShow(project)}
             style={{
-              padding: '1rem 2rem',
-              fontSize: '1.2rem',
+              padding: '1rem 1rem',
+              fontSize: '25px',
               borderRadius: '8px',
               transition: 'background 0.3s',
               background: 'rgba(255, 255, 255, 0.1)'

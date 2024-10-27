@@ -32,11 +32,13 @@
 .heading h1{
     font-size: 170px;
     font-weight: 600;
-    color:#F44250;
+    color: #C70D3A;
     font-family: "Anybody", sans-serif;
     font-variation-settings: "wdth" 64.16, "slnt" 0, "wght" 490;
     line-height: 0.83em;
-    text-align: center;  
+    text-align: center;
+    
+    margin: 100px;  
 }
 .img-thumbnail{
     background-color: black;
