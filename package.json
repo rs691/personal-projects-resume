@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://rs691.github.io/personal-projects-resume/",
+  "homepage": "https://rs691/.github.io/personal-projects-resume/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
