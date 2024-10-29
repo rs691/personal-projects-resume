@@ -4,7 +4,6 @@
 .education{
     display: flex;
     gap: 20px;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-direction: column;
