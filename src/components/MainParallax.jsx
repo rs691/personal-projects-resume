@@ -78,7 +78,7 @@ const handleBack = (e) => {
       <div>
         <div className={styles.background} />
         {isHomePage ? (
-          <>
+          
             <Parallax pages={10} ref={parallaxRef}>
               <ParallaxLayer
                 offset={0}
@@ -150,16 +150,22 @@ const handleBack = (e) => {
                   speed={section.speed}
                   style={{ ...alignCenter, justifyContent: "flex-end", zIndex: 2 }}
                 >
-                  <div 
+                  <a 
                     className={styles.clickableText}
                     onClick={() => handleSectionClick(section.link)}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter' || e.key === ' ') {
+                        handleSectionClick(section.link);
+                      }
+                    }}
+                    href={section.link}
                   >
                     {section.content}
-                  </div>
+                  </a>
                 </ParallaxLayer>
               ))}
             </Parallax>
-          </>
+        
         ) : (
           // <div className={styles.contentPage}>
           //   <button 
