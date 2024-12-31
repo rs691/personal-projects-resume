@@ -16,7 +16,7 @@ const router = createHashRouter([
   {
     path: '/',
     element: <App />,
-    children: [
+  },
      {
 path: 'education',
         element: <Education />,
@@ -47,7 +47,7 @@ path: 'education',
         path: '*',
         element: <h1>Not Found</h1>,
       },
-    ],
+      {
   },
 ]);
 
